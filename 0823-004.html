@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가상요소</title>
+    <style>
+        p {
+            width: 300px;
+            height: 500px;
+            padding: 15px;
+            border: 1px solid black;
+        }
+        p:before {
+            content: "";
+            display: block;
+            width: 150px;
+            height: 30px;
+            background: red;
+            
+        }
+        p:after {
+            content: "";
+            display: block;
+            width: 200px;
+            height: 30px;
+            background: blue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero nostrum enim officiis, fuga aliquid provident quas, deserunt soluta eius dolore sapiente consectetur vitae deleniti cum repudiandae assumenda est veniam minima. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos natus deserunt officia assumenda aperiam. Velit recusandae maiores illo totam iure voluptates consectetur provident harum, odio debitis est voluptas pariatur ad.</p>
+</body>
+</html>
